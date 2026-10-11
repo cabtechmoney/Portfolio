@@ -123,7 +123,7 @@ export async function POST(
       from: fromEmail,
       to: [toEmail],
       subject: `New contact message: ${subject}`,
-      reply_to: email,
+      replyTo: email,
       text: emailText,
       html: emailHtml,
     });
